@@ -1,0 +1,250 @@
+/* Universal Styles */
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+  }
+  
+  html {
+    background-color: rgb(173, 216, 230);
+    font-family: 'Merriweather', serif;
+  }
+  
+  main {
+    padding-top: 15rem;
+  }
+  
+  section h2 {
+    font-size: 2rem;
+    text-align: center;
+  }
+  
+  .container {
+    align-items: center;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5rem;
+    justify-content: center;
+    margin: 3rem 0 3rem;
+  }
+  
+  
+  
+  /* Header Section Styles */
+  
+  header {
+    align-items: center;
+    background-color: rgb(0, 71, 171);
+    color: white;
+    display: flex;
+    height: 10rem;
+    justify-content: space-between;
+    padding: 0 2rem;
+    position: fixed;
+    width: 100%;
+    z-index: 5;
+  }
+  
+  header div {
+    margin: 1rem 0;
+  }
+  
+  header h1 {
+    font-size: 3rem;
+  }
+  
+  header h2 {
+    font-size: 2rem;
+    margin: 0.5rem 0 0 0;
+  }
+  
+  nav ul {
+    display: flex;
+    gap: 2rem;
+    list-style: none;
+  }
+  
+  nav li a {
+    cursor: pointer;
+    font-size: 1.2rem;
+    text-decoration: none;
+  }
+  
+  nav li a:hover {
+    color: yellow;
+  }
+  
+  
+  /* About Section Styles */
+  
+  #about-section {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+  }
+  
+  #about-section p {
+    font-size: 1.2rem;
+    margin: 1rem 0;
+    width: 60%;
+  }
+  
+  
+  /* Projects Section Styles */
+  
+  #projects-section {
+    margin: 5rem 0;
+  }
+  
+  .projectItem {
+    align-items: center;
+    background-color: rgb(0, 80, 200);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 30rem;
+    justify-content: center;
+    margin: 1rem;
+    width: 20rem;
+  }
+  
+  .projectItem h3 {
+    font-size: 1.5rem;
+    margin: 1rem;
+    text-align: center;
+  }
+  
+  .projectItem img {
+    border: 2px white solid;
+    border-radius: 1rem;
+    height: auto;
+    width: 15rem
+  }
+  
+  .linkContainer {
+    margin: 1.5rem 0;
+  }
+  
+  .linkContainer p {
+    margin: 1rem auto;
+    width: 70%;
+  }
+  
+  .projectItem ul {
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    margin: 2rem 0 0;
+  }
+  
+  .projectItem li {
+    list-style-type: none;
+  }
+  
+  .projectItem a {
+    background-color: rgb(173, 216, 230);
+    border-radius: 2rem;
+    color: black;
+    cursor: pointer;
+    font-size: 1.2rem;
+    margin: 1rem;
+    padding: 1rem;
+    text-decoration: none;
+  }
+  
+  .projectItem a:hover {
+    background-color: black;
+    color: rgb(173, 216, 230);
+  }
+  
+  
+  
+  /* Skills Section Styles */
+  
+  .skillItem {
+    align-items: center;
+    background-color: rgb(0, 80, 200);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    height: 20rem;
+    justify-content: center;
+    width: 20rem;
+  }
+  
+  .skillItem h3 {
+    font-size: 1.5rem;
+  }
+  
+  .skillItem h5 {
+    font-size: 1.2rem;
+  }
+  
+  .symbol {
+    background-color: white;
+    height: auto;
+    padding: 1rem;
+    width: 10rem;
+  }
+  
+  #htmlSymbol {
+    color: rgb(228, 77, 38);
+  }
+  
+  #cssSymbol {
+    color: rgb(21, 114, 182);
+  }
+  
+  #jsSymbol {
+    color: rgb(247, 223, 30);
+  }
+  
+  #gitSymbol {
+    color: rgb(240, 80, 50);
+  }
+  
+  .skillText {
+    margin: 1rem 0;
+  }
+  
+  
+  /* Contact Section Styles */
+  
+  #contact-section {
+    margin: 5rem;
+  }
+  
+  #contact-section h3 {
+    font-size: 1.5rem;
+    padding: 2rem;
+    text-align: center
+  }
+  
+  /* Footer Section Styles */
+  
+  footer p {
+    margin: 2rem;
+    text-align: center;
+  }
+  
+  
+  @media only screen and (max-width: 800px) {
+    header {
+      align-items: center;
+      display: flex;
+      flex-direction: column;
+      height: 15rem;
+      padding: 1rem 0;
+    }
+    
+    nav {
+      align-items: center;
+      display: flex;
+      flex-grow: 1;
+    }
+    
+    main {
+      padding-top: 20rem;
+    }
+  }
